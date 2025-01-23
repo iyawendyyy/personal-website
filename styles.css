@@ -11,6 +11,21 @@ body {
     flex-direction: column;
 }
 
+/* Gaya untuk perangkat dengan lebar layar maksimum 828px */
+@media (max-width: 828px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .header {
+        font-size: 20px;
+    }
+}
+
 /* Gaya untuk perangkat dengan lebar layar maksimum 768px (tablet dan ponsel) */
 @media (max-width: 768px) {
     body {
